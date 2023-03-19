@@ -30,7 +30,7 @@
 
 library(arules)
 library(arulesViz)
-
+# file location is in the local drive
 market_basket<-read.transactions(
 		file="D:\\1INTELLIPAAT SQL\\RSELF STUDY\\PROJECTS DEADLINE 5JUN22\\PROJECT ATTACHMENT DOWNLOADS\\PROJECT1- MARKET BASKET ANALYSIS\\market_basket.csv",
 	sep=',',
